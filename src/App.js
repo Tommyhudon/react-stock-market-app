@@ -1,6 +1,5 @@
 import './App.css';
-import SearchBar from './search/search';
-import Stock from './stock';
+import Stock from './components/stock/stock';
 import Loader from './loader'
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
       <header className="App-header">
       <p>The legit crypto exchange</p>
       <div className="App-wrapper">
-        <SearchBar />
         <Stock />
       </div>
       </header>

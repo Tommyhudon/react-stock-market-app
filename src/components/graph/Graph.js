@@ -1,6 +1,22 @@
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import React, { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
 
-function Graph() {
+const Graph = props => {
+
+  const [stockData, setStockData] = useState(props);
+
+  const firstUpdate = useRef(true);
+  useEffect(() => {
+    if (firstUpdate.current) {
+      firstUpdate.current = false;
+      return;
+    }
+    setStockData(props);
+    const test = axios.get(`https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_WEEKLY&symbol=${props.value}&market=USD&apikey=3FWUBQSRHDUWSBYQ`);
+    console.log(test);
+  }, [props]);
+
   const data = [
     {
       name: '2021',
