@@ -13,6 +13,10 @@
   }
 }
 
+.nav-bar {
+  background-color: #61dafb;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,6 +28,13 @@
   color: white;
 }
 
+.App-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1024px;
+}
 .App-link {
   color: #61dafb;
 }
