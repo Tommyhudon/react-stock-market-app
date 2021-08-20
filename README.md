@@ -1,9 +1,7 @@
-# Project Name & Pitch
-Example:
+# React-stock-market-app
 
-TweetWorld
+Description to come
 
-An application used to filter data form Twitter based on user preference, built with React, Redux, JavaScript, and CSS.
 # Project Status
 
 This project is currently in development.
