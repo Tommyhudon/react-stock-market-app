@@ -5,7 +5,7 @@ import data from '../data/data'
 import { useState } from 'react';
 
 function Stock() {
-  const [state, setState] = useState({value: 'BTC', label: 'Bitcoin'});
+  const [crypto, setCrypto] = useState({value: '', label: ''});
 
   return(
     <div className='stock-wrapper'>
@@ -13,11 +13,17 @@ function Stock() {
         <Select
           placeholder="Search your crypto..."
           options={data}
-          onChange={setState}
+          onChange={setCrypto}
         />
       </div>
-      <p>{state.label}$</p>
-      <Graph {...state}/>
+      {crypto.label !== '' && 
+      <div>
+        <p>{crypto.label} (USD$)</p>
+      </div>
+      }
+      {crypto.value !== '' && 
+        <Graph {...crypto}/>
+      }
     </div>
   )
 }
