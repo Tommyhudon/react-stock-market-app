@@ -15,7 +15,9 @@ This project is currently in development.
 
 # Project Screen Shot(s)
 
-eventually...
+This is not the definitive UI but it's usable for now.
+
+![image](https://user-images.githubusercontent.com/35808784/131027379-d589b286-73dc-4311-a366-33e309916253.png)
 
 # Installation and Setup Instructions
 
