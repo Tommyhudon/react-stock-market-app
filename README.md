@@ -17,7 +17,8 @@ This project is currently in development.
 
 This is not the definitive UI but it's usable for now.
 
-![image](https://user-images.githubusercontent.com/35808784/131027379-d589b286-73dc-4311-a366-33e309916253.png)
+![image](https://user-images.githubusercontent.com/35808784/132062214-e075adbf-32a4-4e0c-b108-cceea5043a71.png)
+
 
 # Installation and Setup Instructions
 
