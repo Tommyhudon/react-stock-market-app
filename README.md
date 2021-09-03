@@ -1,15 +1,23 @@
-# React-stock-market-app
+# The Cryptbro
 
-Description to come
+(I came up with the name after creating the repo sadly)
+
+For now The Cryptbro display the changes in value of a cryptocurrency of yout choice in a nice graph.
+
+Soon Cryptbro will tell you if a cryptocurrency is legit.
+
+The datas all come from [Alpha Vantage](https://www.alphavantage.co/) 
 
 # Project Status
 
 This project is currently in development.
-Users can't do much right now exept looking at a graph with hardcoded datas
+
 
 # Project Screen Shot(s)
 
-eventually...
+This is not the definitive UI but it's usable for now.
+
+![image](https://user-images.githubusercontent.com/35808784/131027379-d589b286-73dc-4311-a366-33e309916253.png)
 
 # Installation and Setup Instructions
 
