@@ -16,7 +16,7 @@ function Stock() {
       firstUpdate.current = false;
       return;
     }
-    
+
     fetch(API_CALL)
       .then((res) => {
           return res.json();
@@ -51,9 +51,10 @@ function Stock() {
           onChange={setCrypto}
         />
       </div>
-      {crypto.label !== '' && 
+      {chartData?.id !== undefined && 
       <div>
-        <p>{crypto.label} (USD$)</p>
+        <p>{crypto.label} ({chartData.id})</p>
+        <p>{chartData.data[chartData.data.length - 1].y} USD</p>
       </div>
       }
       {chartData?.id !== undefined && 
